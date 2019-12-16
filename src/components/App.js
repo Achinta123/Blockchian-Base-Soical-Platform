@@ -22,7 +22,7 @@ class App extends Component {
       window.web3 = new Web3(window.web3.currentProvider)
     }
     else {
-      window.alert('Non-Ethereum browser detected. You should consider trying MetaMask!')
+      window.alert('Connect MetaMask with rinkeby network!')
     }
   }
 
